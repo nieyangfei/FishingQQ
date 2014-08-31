@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="utf-8">
+		<title>登陆</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+		<style type="text/css">
+		body {
+	background-image: url(img/bg.png);
+}
+        </style>
+	</head>
+	<body>
+<!--login modal-->
+<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h1 class="text-center"><img src="img/QQ.png" width="72" height="72">登陆</h1>
+      </div>
+      <div class="modal-body">
+          <form action="server.php" method="post" class="form col-md-12 center-block">
+            <div class="form-group">
+              <input name="xx" type="text" class="form-control input-lg" placeholder="账号：">
+            </div>
+            <div class="form-group">
+              <input name="yy" type="password" class="form-control input-lg" placeholder="密码：">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-lg btn-block">登  陆</button>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <div class="col-md-12">
+          
+		  </div>	
+      </div>
+  </div>
+  </div>
+</div>
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
